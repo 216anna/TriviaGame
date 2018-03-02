@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Trivia Game</title>
+    <link type="text/css" rel="stylesheet" href="assets/style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script type="text/javascript" src="assets/app.js"></script>
+
+</head>
+
+<body>
+    <div id="container">
+        <div id="startPage">
+            <div>Press the start button to begin the game</div>
+            <button id="start">START</button>
+        </div>
+
+        <div id="mainPage">
+            <h1 class="title">New Girl Trivia</h1>
+            <div class="mainText">Time Remaining</div>
+            <div class="mainText" id="countdown">30 seconds</div>
+            <div class="mainText" id="question">question</div>
+            <div id="answers">
+                <div id="answerChoice1" class="answerChoice">A</div>
+                <div id="answerChoice2" class="answerChoice">B</div>
+                <div id="answerChoice3" class="answerChoice">C</div>
+                <div id="answerChoice4" class="answerChoice">D</div>
+            </div>
+            <div id="resultContainer">
+                <div id="result"></div>
+                <img id="image"/>
+            </div>
+
+        </div>
+
+        <div id="endPage">
+            <div id="stats">
+                <div id="correct">Correct Answers:</div>
+                <div id="incorrect">Incorrect Answers:</div>
+                <div id="unanswered">Unanswered:</div>
+                <button id="startOver">Start Over</button>
+            </div>
+        </div>
+    </div>
+   
+</body>
+
+</html>

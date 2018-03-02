@@ -1,0 +1,47 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#container {
+    text-align: center;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+#startPage {
+    margin: 20px 0;
+}
+button{
+    margin: 20px 0;
+    font-size: 2em;
+    padding: 15px;
+}
+h1 {
+    font-size: 3em;
+    font-family: fantasy;
+}
+.mainText {
+    font-size: 1.2em;
+}
+#question {
+    margin: 12px 0; 
+    font-weight: bold;
+}
+.answerChoice {
+    border: solid 1px lightgreen;
+    padding: 10px;
+    margin: 10px 50px;
+}
+.answerChoice:hover {
+    background-color: lightgreen;
+}
+#image {
+    max-width: 100%;
+}
+#result {
+    border: solid 1px lavender;
+    padding: 10px;
+    margin: 10px 50px;
+    background-color: lavender;
+    font-weight: bold;
+    font-size: 1.2em;
+}
